@@ -1,0 +1,36 @@
+.header {
+    // position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(78, 75, 121);
+    color: #fff;
+    z-index: 200;
+    &__logo {
+        display: block;
+        img {
+            transition: 0.5s all;
+            width: 70px;
+            height: 100%;
+            &:hover {
+                transform: rotate(180deg);
+            }
+        }
+        
+    }
+    &__blocks {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__block {
+        gap: 20px;
+        display: flex;
+    }
+    &__link {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+}

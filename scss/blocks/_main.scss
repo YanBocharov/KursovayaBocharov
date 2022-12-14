@@ -1,0 +1,29 @@
+.main {
+    text-align: center;
+    &__text {
+        padding-top: 200px;
+    }
+    &__title {
+        margin-top: 100px;
+        color: rgb(48, 47, 114);
+        font-weight: 700;
+        font-size: 40px;
+    }
+    &__subtitle {
+        font-size: 30px;
+    }
+    &__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        width: 150px;
+        height: 49px;
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        border: 3px solid rgb(48, 47, 114);
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: rgba(39, 27, 94, 0.281);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    position: relative;
+}
+
+.createBtn {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    max-width: 350px;
+    margin: 0 auto;
+    color: #000;
+    transition: 0.5s all;
+    &:hover {
+        transition: 0.5s all;
+        color: blue;
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/descr';
+@import 'blocks/table';
+@import 'blocks/sort';

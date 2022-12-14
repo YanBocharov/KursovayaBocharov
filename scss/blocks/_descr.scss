@@ -1,0 +1,28 @@
+.descr {
+    padding-top: 100px;
+    &__text {
+        max-width: 700px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img {
+        width: 500px;
+    }
+    &__block {
+        display: flex;
+        gap: 30px;
+        &_2 {
+            margin-top: 70px;
+        }
+    }
+    &__list {
+        li {
+            margin-left: 20px;
+            &:nth-child(1) {
+                margin-top: 10px;
+            }
+        }
+    }
+}
